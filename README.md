@@ -6,12 +6,15 @@ Using the following extensions
 -RestSharp
 
 The following tech test contains the following APIs
+
 -Get Current Weather Data
+
 -Get Current Air Quality Data
 
 ================= FRAMEWORK =======================
 
 APIHelper ->> Data Objects Model, Helper Classes, UserActions(Rest Actions)
+
 SpecFlowProject2 ->> Features, Step Bindings/Definitions, Appsettings.Json (BaseURL/Endpoint)
 
 
@@ -27,7 +30,10 @@ To execute the tests,
 3. Select and Expand until SpecFlowProject.Features
 4. To run all, click "SpecFlowProject2" or "SpecFlowProject2.Features"
 5. Press ">"
+
+
 =============== TEST REPORT =======================
+
 To view execution report / Test Detail Summary
 1. After running, select test with marked as "X" or "v"
 2. Double click, and view Test Detail Summary Report
@@ -35,6 +41,9 @@ To view execution report / Test Detail Summary
 ============== ADDITIONAL NOTES ====================
 
 BASEURL and ENDPOINTS are found in Project SpecFlowPorject2 -> Appsettings.json
+
 Current Version only runs the following scenario due to limitation of Licence Key/API Key used.
-Get Current Weather Data by City
-Get Current Weather Data by Latitude Longitude
+
+-Get Current Weather Data by City
+
+-Get Current Weather Data by Latitude Longitude
